@@ -1,0 +1,33 @@
+{
+  "buildMode": "web-mobile",
+  "platform": "web",
+  "outDir": "build",
+  "sourceMaps": true,
+  "minify": false,
+  "optimizeHotUpdate": false,
+  "inlineSpriteFrame": true,
+  "inlineCanvas": true,
+  "mergeJson": false,
+  "transformPaths": true,
+  "packAutoAtlas": false,
+  "textureCompressType": "webp",
+  "md5Cache": false,
+  "designResolution": {
+    "width": 800,
+    "height": 600
+  },
+  "fitWidth": false,
+  "fitHeight": true,
+  "debug": true,
+  "physics": {
+    "enabled": true,
+    "engine": "builtin"
+  },
+  "features": {
+    "physics2d": true,
+    "tilemap": true,
+    "dragonbones": true,
+    "spine": true,
+    "studio": true
+  }
+}

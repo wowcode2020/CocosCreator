@@ -1,0 +1,36 @@
+{
+  "name": "cocos-creator-game",
+  "version": "1.0.0",
+  "description": "A Cocos Creator 3.x web game project",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:web",
+    "build:web": "node scripts/build-web.js",
+    "dev": "npm run serve",
+    "serve": "node scripts/serve.js",
+    "clean": "npm run clean:build && npm run clean:assets",
+    "clean:build": "rimraf build",
+    "clean:assets": "rimraf temp",
+    "cocos": "cocos",
+    "cocos:new": "cocos new",
+    "cocos:run": "cocos run -p web",
+    "cocos:compile": "cocos compile -p web --no-effects",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.5.0",
+    "rimraf": "^3.0.0"
+  },
+  "cocos-creator": {
+    "version": "3.0.0"
+  },
+  "keywords": [
+    "cocos-creator",
+    "game",
+    "typescript",
+    "web"
+  ],
+  "author": "",
+  "license": "MIT"
+}

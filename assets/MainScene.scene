@@ -1,0 +1,244 @@
+{
+  "version": "3.0.0",
+  "data": {
+    "__type__": "cc.SceneAsset",
+    "_name": "MainScene",
+    "_objFlags": 0,
+    "scene": {
+      "__type__": "cc.Scene",
+      "_name": "MainScene",
+      "_objFlags": 0,
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "PlayerSpawn",
+          "_objFlags": 0,
+          "_parent": null,
+          "_children": [],
+          "_components": [],
+          "_active": true,
+          "_level": 1,
+          "_transform": {
+            "__type__": "cc.Transform",
+            "_contentSize": {
+              "__type__": "cc.Size",
+              "width": 0,
+              "height": 0
+            },
+            "_anchorPoint": {
+              "__type__": "cc.Vec2",
+              "x": 0.5,
+              "y": 0.5
+            },
+            "_position": {
+              "__type__": "cc.Vec3",
+              "x": 400,
+              "y": 300,
+              "z": 0
+            },
+            "_scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "_rotation": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "EnemySpawner",
+          "_objFlags": 0,
+          "_parent": null,
+          "_children": [],
+          "_components": [],
+          "_active": true,
+          "_level": 1,
+          "_transform": {
+            "__type__": "cc.Transform",
+            "_contentSize": {
+              "__type__": "cc.Size",
+              "width": 0,
+              "height": 0
+            },
+            "_anchorPoint": {
+              "__type__": "cc.Vec2",
+              "x": 0.5,
+              "y": 0.5
+            },
+            "_position": {
+              "__type__": "cc.Vec3",
+              "x": 400,
+              "y": 500,
+              "z": 0
+            },
+            "_scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "_rotation": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "HUDLayer",
+          "_objFlags": 0,
+          "_parent": null,
+          "_children": [],
+          "_components": [],
+          "_active": true,
+          "_level": 1,
+          "_transform": {
+            "__type__": "cc.Transform",
+            "_contentSize": {
+              "__type__": "cc.Size",
+              "width": 800,
+              "height": 600
+            },
+            "_anchorPoint": {
+              "__type__": "cc.Vec2",
+              "x": 0.5,
+              "y": 0.5
+            },
+            "_position": {
+              "__type__": "cc.Vec3",
+              "x": 400,
+              "y": 300,
+              "z": 0
+            },
+            "_scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "_rotation": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "BackgroundTilemap",
+          "_objFlags": 0,
+          "_parent": null,
+          "_children": [],
+          "_components": [],
+          "_active": true,
+          "_level": 1,
+          "_transform": {
+            "__type__": "cc.Transform",
+            "_contentSize": {
+              "__type__": "cc.Size",
+              "width": 800,
+              "height": 600
+            },
+            "_anchorPoint": {
+              "__type__": "cc.Vec2",
+              "x": 0.5,
+              "y": 0.5
+            },
+            "_position": {
+              "__type__": "cc.Vec3",
+              "x": 400,
+              "y": 300,
+              "z": -10
+            },
+            "_scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "_rotation": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "_components": [],
+      "_active": true,
+      "_level": 0,
+      "_transform": {
+        "__type__": "cc.Transform",
+        "_contentSize": {
+          "__type__": "cc.Size",
+          "width": 800,
+          "height": 600
+        },
+        "_anchorPoint": {
+          "__type__": "cc.Vec2",
+          "x": 0.5,
+          "y": 0.5
+        },
+        "_position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "_scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "_rotation": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "_eulerAngles": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "asyncLoadAssets": false
+  }
+}
